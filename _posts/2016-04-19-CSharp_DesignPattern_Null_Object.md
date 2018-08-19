@@ -33,8 +33,8 @@ class FastCar : ICar
 {% endhighlight %}
 ```
 
-~~~csharp
 {% highlight scss linenos %}
+~~~csharp
 class FastCar : ICar
 {
     public void Run()
@@ -42,5 +42,5 @@ class FastCar : ICar
         Console.WriteLine("Run fast");
     }
 }
-{% endhighlight %}
 ~~~
+{% endhighlight %}
