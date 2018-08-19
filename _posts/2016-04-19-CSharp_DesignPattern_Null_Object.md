@@ -9,9 +9,12 @@ tags: [C#, Design Pattern]
 ### 建立一個interface或abstract class ###
 
 ~~~csharp
-interface ICar
+class FastCar : ICar
 {
-    void Run();
+    public void Run()
+    {
+        Console.WriteLine("Run fast");
+    }
 }
 ~~~
 
@@ -28,4 +31,16 @@ class FastCar : ICar
     }
 }
 {% endhighlight %}
-``
+```
+
+~~~csharp
+{% highlight scss linenos %}
+class FastCar : ICar
+{
+    public void Run()
+    {
+        Console.WriteLine("Run fast");
+    }
+}
+{% endhighlight %}
+~~~
