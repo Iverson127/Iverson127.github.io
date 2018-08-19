@@ -18,11 +18,9 @@ class FastCar : ICar
 }
 ~~~
 
-### 接著定幾個class繼承上述的介面: ###
+### 1: ###
 
-
-```csharp
-{% highlight scss linenos %}
+{% highlight cs linenos %}
 class FastCar : ICar
 {
     public void Run()
@@ -31,10 +29,10 @@ class FastCar : ICar
     }
 }
 {% endhighlight %}
-```
 
-{% highlight scss linenos %}
-~~~csharp
+### 2: ###
+
+{% highlight csharp linenos %}
 class FastCar : ICar
 {
     public void Run()
@@ -42,5 +40,16 @@ class FastCar : ICar
         Console.WriteLine("Run fast");
     }
 }
-~~~
+{% endhighlight %}
+
+### 3: ###
+
+{% highlight c# linenos %}
+class FastCar : ICar
+{
+    public void Run()
+    {
+        Console.WriteLine("Run fast");
+    }
+}
 {% endhighlight %}
